@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* Styling for the card container */
+
+/* App.css */
+
+
+
+.login-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-family: Arial, sans-serif;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.text-primary {
+  color: #2575fc;
+}
+
+.btn-primary {
+  background-color: #2575fc;
+  border-color: #2575fc;
+}
+
+.btn-primary:hover {
+  background-color: #205bb5;
+  border-color: #205bb5;
+}
+
+
+/* App.css */
+
+/* Card styling */
+.card {
+  background: #2c3e50;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs and labels styling */
+.form-control {
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h2.text-center {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+button:disabled {
+  background-color: #7f8c8d;
+  border-color: #7f8c8d;
+}
+
+/* Button Hover */
+.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+/* For extra spacing in the container */
+.container {
+  max-width: 600px;
+}
+  
+
+/* App.css */
+
+/* About Page Styling */
+.about-container {
+  background-color: #34495e;
+  color: white;
+  padding: 50px 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.about-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Styling for the image */
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+      padding: 30px 10px;
+  }
+  .about-title {
+      font-size: 22px;
+  }
+  .about-description {
+      font-size: 16px;
+  }
+}
+
+
+
